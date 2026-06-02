@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ansiedade: o que está por trás da urgência que não passa — Anderson Delgado</title>
+<meta name="description" content="A ansiedade raramente é apenas nervosismo. Ela fala de algo que insiste em não ser nomeado. Entenda o que está por trás dela pela ótica da psicanálise.">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root{--ink:#1a1410;--cream:#f5f0e8;--warm:#ede5d8;--gold:#b8924a;--muted:#7a6e62;--deep:#221c15;}
+  *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+  body{background:var(--cream);color:var(--ink);font-family:'Jost',sans-serif;font-weight:300;overflow-x:hidden;}
+  .blog-nav{padding:24px 64px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(184,146,74,.15);}
+  .blog-nav a{text-decoration:none;font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);transition:color .3s;}
+  .blog-nav a:hover{color:var(--gold);}
+  .nav-logo{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:300;color:var(--ink);}
+
+  /* HERO DESTAQUE */
+  .article-hero{background:var(--deep);padding:80px 64px;text-align:center;}
+  .article-hero .tag{font-size:.68rem;letter-spacing:.35em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:28px;}
+  .article-hero .tag::before,.article-hero .tag::after{content:'';display:block;width:28px;height:1px;background:var(--gold);}
+  .article-hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2.2rem,4vw,3.6rem);font-weight:300;line-height:1.1;color:var(--cream);}
+  .article-hero h1 em{font-style:italic;color:var(--gold);}
+  .article-hero .meta{margin-top:24px;font-size:.75rem;letter-spacing:.12em;color:rgba(245,240,232,.35);}
+
+  .article-wrap{max-width:720px;margin:0 auto;padding:80px 32px 120px;}
+  .article-body h2{font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:400;line-height:1.2;margin:48px 0 16px;}
+  .article-body p{font-size:.95rem;line-height:1.95;color:var(--muted);margin-bottom:20px;}
+  .article-body hr{border:none;border-top:1px solid rgba(184,146,74,.2);margin:40px 0;}
+
+  /* BOTÃO WA INLINE */
+  .cta-inline{margin:40px 0;padding:36px 40px;background:var(--deep);display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;}
+  .cta-inline p{font-family:'Cormorant Garamond',serif;font-size:1.15rem;font-weight:300;font-style:italic;color:var(--cream);line-height:1.4;flex:1;}
+  .btn-wa{display:inline-flex;align-items:center;gap:10px;padding:14px 28px;background:#25D366;color:#fff;font-size:.75rem;font-weight:500;letter-spacing:.15em;text-transform:uppercase;text-decoration:none;transition:background .3s;white-space:nowrap;}
+  .btn-wa:hover{background:#1ebe5d;}
+  .btn-wa svg{flex-shrink:0;}
+
+  .author-box{margin-top:48px;padding:32px;border:1px solid rgba(184,146,74,.2);}
+  .author-box h3{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:400;margin-bottom:6px;}
+  .author-box p{font-size:.82rem;line-height:1.75;color:var(--muted);}
+  .back-link{display:inline-flex;align-items:center;gap:8px;margin-top:48px;font-size:.75rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);text-decoration:none;transition:color .3s;}
+  .back-link:hover{color:var(--gold);}
+  .wa-float{position:fixed;bottom:32px;right:32px;z-index:999;width:58px;height:58px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(37,211,102,.45);text-decoration:none;}
+  .wa-float svg{width:28px;height:28px;fill:#fff;}
+  .wa-float::after{content:'';position:absolute;inset:-4px;border-radius:50%;border:2px solid rgba(37,211,102,.4);animation:waPulse 2.5s ease-out infinite;}
+  @keyframes waPulse{0%{transform:scale(1);opacity:.8;}100%{transform:scale(1.6);opacity:0;}}
+  footer{background:var(--deep);padding:26px 64px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;}
+  footer p{font-size:.69rem;letter-spacing:.1em;color:rgba(245,240,232,.22);}
+  footer a{color:rgba(184,146,74,.55);font-size:.69rem;text-decoration:none;}
+  @media(max-width:768px){.blog-nav{padding:20px 24px;}.article-hero{padding:60px 24px;}.article-wrap{padding:48px 24px 80px;}.cta-inline{flex-direction:column;padding:28px 24px;}.cta-inline p{text-align:center;}.btn-wa{width:100%;justify-content:center;}footer{padding:20px 24px;flex-direction:column;}}
+</style>
+</head>
+<body>
+
+<nav class="blog-nav">
+  <a href="../index.html" class="nav-logo">Anderson Delgado</a>
+  <a href="../blog.html">← Voltar ao Blog</a>
+</nav>
+
+<div class="article-hero">
+  <p class="tag">Ansiedade · Psicanálise</p>
+  <h1>Ansiedade: o que está por trás<br>da <em>urgência que não passa</em></h1>
+  <p class="meta">Por Anderson Delgado · Psicólogo CRP 06/99463 · Junho de 2026</p>
+</div>
+
+<article class="article-wrap">
+  <div class="article-body">
+    <p>Você sabe o que está te deixando ansioso — ou acha que sabe. O prazo, a reunião, o relacionamento, o futuro. Mas depois que aquilo passa, a ansiedade continua. Surge outro motivo. E depois outro. E a sensação de que o problema é você, não a situação, começa a se instalar.</p>
+    <p>Isso acontece porque a ansiedade raramente é apenas uma resposta ao que está acontecendo. Ela fala de algo que insiste em não ser nomeado — algo que a consciência não alcança sozinha.</p>
+
+    <hr>
+
+    <h2>O que a psicanálise entende por ansiedade</h2>
+    <p>Na psicanálise, a ansiedade não é um defeito a ser corrigido nem um sintoma a ser eliminado rapidamente. Ela é um sinal — uma forma que o inconsciente encontra de dizer que algo precisa ser ouvido.</p>
+    <p>Freud distinguiu a ansiedade de outros afetos exatamente porque ela não tem objeto fixo. Você pode estar ansioso sem saber bem por quê. Ou saber o motivo imediato, mas perceber que a intensidade do que sente é desproporcional à situação. Isso é o inconsciente em operação.</p>
+    <p>Lacan aprofundou essa leitura: a ansiedade aparece quando algo ameaça a forma como o sujeito se situa no mundo — quando o que sustentava sua identidade ou seus vínculos começa a vacilar.</p>
+  </div>
+
+  <div class="cta-inline">
+    <p>"Se a ansiedade não passa, talvez ela esteja dizendo algo que ainda não foi escutado."</p>
+    <a href="https://wa.me/5511976723033" target="_blank" class="btn-wa">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Agendar consulta
+    </a>
+  </div>
+
+  <div class="article-body">
+    <h2>Por que as técnicas de controle não resolvem</h2>
+    <p>Respiração, meditação, pausas, exercício físico — tudo isso tem valor. Mas quando a ansiedade é persistente, essas estratégias aliviam sem resolver. É como desligar o alarme sem investigar o que o disparou.</p>
+    <p>A psicanálise não propõe controlar a ansiedade. Propõe escutá-la. Entender o que ela está sinalizando, de onde vem, o que na história da pessoa criou essa forma particular de sofrer.</p>
+    <p>Quando isso acontece — quando o sujeito começa a compreender o que sustenta a sua ansiedade — algo muda de forma mais duradoura. Não porque o sintoma foi suprimido, mas porque perdeu parte do que o sustentava.</p>
+
+    <hr>
+
+    <h2>Como a análise trabalha com a ansiedade</h2>
+    <p>No processo analítico, o paciente é convidado a falar livremente — sem roteiro, sem objetivo imediato. É nesse espaço que o inconsciente se revela: nas repetições, nos lapsos, nas associações inesperadas, no que surge sem ser convocado.</p>
+    <p>O analista escuta com atenção ao que não está sendo dito diretamente. Às vezes uma intervenção precisa — uma palavra, uma pergunta, um silêncio — é suficiente para que o paciente acesse algo que estava bloqueado.</p>
+    <p>Não é um processo rápido. Mas é um processo que produz transformações reais — não apenas alívio temporário.</p>
+  </div>
+
+  <div class="cta-inline">
+    <p>"A análise não elimina a ansiedade. Ela escuta o que a ansiedade tem a dizer."</p>
+    <a href="https://wa.me/5511976723033" target="_blank" class="btn-wa">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Agendar consulta
+    </a>
+  </div>
+
+  <div class="article-body">
+    <h2>Quando buscar ajuda</h2>
+    <p>Se a ansiedade está presente com frequência, se interfere no trabalho, nos relacionamentos ou no sono, se você sente que não consegue desligar — esses são sinais de que algo pede atenção.</p>
+    <p>O primeiro passo é simples: uma conversa inicial, sem compromisso, para entender o que está acontecendo e se a análise faz sentido para o seu momento.</p>
+  </div>
+
+  <div class="cta-inline">
+    <p>"Se você reconheceu algo de si neste texto, talvez valha a pena conversar."</p>
+    <a href="https://wa.me/5511976723033" target="_blank" class="btn-wa">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Agendar consulta
+    </a>
+  </div>
+
+  <div class="author-box">
+    <h3>Anderson Delgado</h3>
+    <p>Psicólogo com orientação psicanalítica lacaniana, CRP 06/99463. Atendo adultos online, com base em Santo André — ABC Paulista.</p>
+  </div>
+
+  <a href="../blog.html" class="back-link">← Ver todos os artigos</a>
+</article>
+
+<a href="https://wa.me/5511976723033" target="_blank" class="wa-float">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<footer>
+  <p>© 2026 Anderson Delgado · Psicólogo · CRP 06/99463 · Santo André — SP</p>
+  <a href="../index.html">Página inicial</a>
+</footer>
+</body>
+</html>
