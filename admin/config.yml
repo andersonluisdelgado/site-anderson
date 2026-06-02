@@ -1,0 +1,22 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "static/imagens"
+public_folder: "/static/imagens"
+
+locale: 'pt'
+
+collections:
+  - name: "blog"
+    label: "Artigos do Blog"
+    folder: "blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Descrição (SEO)", name: "description", widget: "string" }
+      - { label: "Categoria / Tag", name: "tag", widget: "string", default: "Psicanálise" }
+      - { label: "Data", name: "date", widget: "date", format: "MMMM [de] YYYY", dateFormat: "MMMM [de] YYYY" }
+      - { label: "Conteúdo", name: "body", widget: "markdown" }
+      - { label: "Frase de destaque (CTA)", name: "cta_frase", widget: "string", required: false }
